@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #2a2e36;
+}
+.fa-home{
+    font-size: 22px!important;
+    color: #fff;
+}
+.fa-home:hover{
+    background-color: black;
+}
+ul.ul_bakhsh1{
+    display: flex;
+    list-style-type: none;
+    padding: 1px 1px;
+    color: #fff;
+}
+li.item{
+    padding:8px 16px;
+    line-height: 25px;
+}
+li.item:hover{
+background-color: black
+}
+li.item:active{
+    background-color: #04AA6D;
+}
+a{
+    text-decoration: none;
+    color: #fff  
+}
+div.icons{
+    display: flex;
+    padding-left: 496px!important;
+}
+li.all_icons{
+    font-size: 22px;
+    color: #fff
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
