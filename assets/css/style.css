@@ -1,40 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Lato:ital,wght@1,100&family=Roboto:ital@0;1&display=swap');
-
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-
-nav {
+nav{
     width: 100%;
+    background-color: #2a2e36;
 }
-
-ul.contaner {
+.fa-home{
+    font-size: 22px!important;
+    color: #fff;
+}
+.fa-home:hover{
+    background-color: black;
+}
+ul.ul_bakhsh1{
     display: flex;
-    background-color: rgb(18, 16, 29);
-    padding: 2px 0 3px 10px;
+    list-style-type: none;
+    padding: 1px 1px;
+    color: #fff;
 }
-
-li.item {
-    display: flex;
+li.item{
+    padding:8px 16px;
+    line-height: 25px;
 }
-
-li.item>a {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 20px;
+li.item:hover{
+background-color: black
+}
+li.item:active{
+    background-color: #04AA6D;
+}
+a{
     text-decoration: none;
-    color: rgb(200, 200, 200);
-    padding: 10px 19px;
-    background-color: #556b2f;
-    border-radius: 2px;
-    list-style: none;
-    text-transform: capitalize;
-    margin: 0 3px;
-
+    color: #fff  
 }
-li.item>a.active{
-background-color: rgba(192, 192, 192, 0.507);
+div.icons{
+    display: flex;
+    padding-left: 496px!important;
 }
-li.item>a:hover:not(.active){
-    background-color: rgba(85, 107, 47, 0.8);
+li.all_icons{
+    font-size: 22px;
+    color: #fff
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
